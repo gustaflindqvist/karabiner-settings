@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<root>
+
+  <devicevendordef>​
+    <vendorname>DAS</vendorname>​
+    <vendorid>0x04d9</vendorid>​
+  </devicevendordef>​
+  <deviceproductdef>​
+    <productname>DAS_KEYBOARD</productname>​
+    <productid>0x2013</productid>​
+  </deviceproductdef>​
+
+  <item>
+    <name>F7 - F9 to Music Controls (daskeyboard only)</name>
+    <appendix>F7 to Music Prev</appendix>
+    <appendix>F8 to Music Play/Pause</appendix>
+    <appendix>F9 to Music Next</appendix>
+    <identifier>private.musiccontrols</identifier>
+    <device_only>DeviceVendor::DAS, DeviceProduct::DAS_KEYBOARD</device_only>​
+    <autogen>__KeyToConsumer__ KeyCode::F7, ConsumerKeyCode::MUSIC_PREV</autogen>
+    <autogen>__KeyToConsumer__ KeyCode::F8, ConsumerKeyCode::MUSIC_PLAY</autogen>
+    <autogen>__KeyToConsumer__ KeyCode::F9, ConsumerKeyCode::MUSIC_NEXT</autogen>
+  </item>
+</root>
+
