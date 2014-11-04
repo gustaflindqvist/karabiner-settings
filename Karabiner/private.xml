@@ -11,15 +11,21 @@
   </deviceproductdef>​
 
   <item>
-    <name>F7 - F9 to Music Controls (daskeyboard only)</name>
+    <name>F7 - F12 to Music Controls (daskeyboard only)</name>
     <appendix>F7 to Music Prev</appendix>
     <appendix>F8 to Music Play/Pause</appendix>
     <appendix>F9 to Music Next</appendix>
+    <appendix>F10 to Volume Mute</appendix>
+    <appendix>F11 to Volume Down</appendix>
+    <appendix>F12 to Volume Up</appendix>
     <identifier>private.musiccontrols</identifier>
     <device_only>DeviceVendor::DAS, DeviceProduct::DAS_KEYBOARD</device_only>​
     <autogen>__KeyToConsumer__ KeyCode::F7, ConsumerKeyCode::MUSIC_PREV</autogen>
     <autogen>__KeyToConsumer__ KeyCode::F8, ConsumerKeyCode::MUSIC_PLAY</autogen>
     <autogen>__KeyToConsumer__ KeyCode::F9, ConsumerKeyCode::MUSIC_NEXT</autogen>
+    <autogen>__KeyToConsumer__ KeyCode::F10, ConsumerKeyCode::VOLUME_MUTE</autogen>
+    <autogen>__KeyToConsumer__ KeyCode::F11, ConsumerKeyCode::VOLUME_DOWN</autogen>
+    <autogen>__KeyToConsumer__ KeyCode::F12, ConsumerKeyCode::VOLUME_UP</autogen>
   </item>
 </root>
 
